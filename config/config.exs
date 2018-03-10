@@ -2,29 +2,8 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-# This configuration is loaded before any dependency and is restricted
-# to this project. If another project depends on this project, this
-# file won't be loaded nor affect the parent project. For this reason,
-# if you want to provide default values for your application for
-# 3rd-party users, it should be done in your "mix.exs" file.
-
-# You can configure your application as:
-#
-#     config :sandbox, key: :value
-#
-# and access this configuration in your application as:
-#
-#     Application.get_env(:sandbox, :key)
-#
-# You can also configure a 3rd-party app:
-#
-#     config :logger, level: :info
-#
-
-# It is also possible to import configuration files, relative to this
-# directory. For example, you can emulate configuration per environment
-# by uncommenting the line below and defining dev.exs, test.exs and such.
-# Configuration from the imported file will override the ones defined
-# here (which is why it is important to import them last).
-#
-#     import_config "#{Mix.env}.exs"
+# NOTE Token of telegram bot with name "sandbox_example".
+# You can create your own by using @BotFather.
+config :sandbox, :agala_telegram,
+  token: "388669315:AAFuob19Pfjc3oKP5Ny0r_5T7-wkQfhNlHY",
+  name: "sandbox_telegram_bot"
